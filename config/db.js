@@ -10,7 +10,7 @@ const conn = async () => {
             `mongodb+srv://${dbUSer}:${dbPassword}@cluster0.2p0lchd.mongodb.net/?retryWrites=true&w=majority`
             );
 
-            console.log("conectou ao banco!");
+            console.log("conectou ao banco!")
 
             return dbConn
 
